@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="600" height="400" text="boomslang.example.rcp.mail" minimizeButton="true" maximizeButton="true"/>
+  <widgets xsi:type="model:Tree" id="2" x="25" y="69" width="149" height="356" text="me@this.com&#xA;other@aol.com&#xA;">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="3" x="178" y="69" width="447" height="356" text="Message,Message" selection="1">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="4" x="583" y="76" icon="image (small)"/>
+  <widgets xsi:type="model:Icon" id="5" x="605" y="76" icon="image (small)"/>
+  <widgets xsi:type="model:Label" id="6" x="191" y="106" text="Subject:">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="255" y="106" text="This is a message about the cool Eclipse RCP!">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="191" y="131" text="From:">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="255" y="131" text="[nicole@mail.org]">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="191" y="156" text="Date:">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="255" y="156" text="10:34 am">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="12" x="181" y="186" width="441" height="236" text="This RCP Application was generated from the PDE Plug-in Project wizard. This sample shows how to:&#xA;- add a top-level menu and toolbar with actions&#xA;- add keybindings to actions&#xA;- create views that can't be closed and&#xA;  multiple instances of the same view&#xA;- perspectives with placeholders for new views&#xA;- use the default about dialog&#xA;- create a product definition&#xA;">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="13" x="31" y="53" icon="image (small)"/>
+  <widgets xsi:type="model:Icon" id="14" x="53" y="53" icon="image (small)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
