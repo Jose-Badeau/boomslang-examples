@@ -31,7 +31,7 @@ script:
   - ./mvnw test
   - gulp test
   - ./mvnw package -Pprod -DskipTests
-  - cd ../boomslang.example.web.jhapp
+  - cd ../boomslang.example.rcp.mail
   - mvn clean install
 notifications:
   webhooks:
