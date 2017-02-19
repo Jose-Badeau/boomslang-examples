@@ -31,6 +31,8 @@ script:
   - ./mvnw test
   - gulp test
   - ./mvnw package -Pprod -DskipTests
+  - cd ../boomslang.example.web.jhapp
+  - mvn clean install
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
