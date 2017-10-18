@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Login
+Bundle-SymbolicName: boomslang.login
+Bundle-Version: 1.0.0.qualifier
+Export-Package: org.boomslang.test.features,
+ org.boomslang.test.mappings,
+ org.boomslang.test.screens
+Require-Bundle: org.boomslang.generator.geb.feature.core;bundle-version="0.1.0"

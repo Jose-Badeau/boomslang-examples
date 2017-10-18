@@ -1,0 +1,18 @@
+package org.boomslang.test.mappings
+
+import org.boomslang.test.screens.Login
+
+Mapping Login
+ 
+	url {fragment: "login"}
+	
+	label {"Login"}
+
+	Password {
+		driver:com.myappl.PasswordModule
+		locator: "id_password"
+	}
+
+	Username { locator : "id_username" }
+	
+	Login { locator : "id_login" }
