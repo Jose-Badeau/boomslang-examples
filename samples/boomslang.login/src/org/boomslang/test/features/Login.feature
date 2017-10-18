@@ -8,10 +8,11 @@ import foobar.michgibgts.nicht.asasasa.Login
 
 Feature Login
 
-	As a "Test"
+	As a "Tester"
 	I want to "test the application"
 	In order to "verifying everyhting works"
+
 	Scenario "Login to Application"
-	Given I am on the screen Login  
-	when I from the Password textfield  I type  "Pwd123"
+		Given I am on the screen Login  
+		when I from the Password textfield  I type  "Pwd123"
 

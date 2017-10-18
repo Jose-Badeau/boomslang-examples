@@ -4,14 +4,8 @@ import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.ControlEvent;
-import org.eclipse.swt.events.ControlListener;
-import org.eclipse.swt.events.DisposeEvent;
-import org.eclipse.swt.events.DisposeListener;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
-import org.eclipse.swt.events.ShellEvent;
-import org.eclipse.swt.events.ShellListener;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
@@ -70,6 +64,8 @@ public class LoginDialog extends Dialog {
 		lblUsername.setText("Username");
 		
 		username = new Text(container, SWT.BORDER);
+		username.setData("id_username");
+		
 		GridData gd_username = new GridData(SWT.LEFT, SWT.CENTER, true, false, 1, 1);
 		gd_username.widthHint = 171;
 		username.setLayoutData(gd_username);
@@ -80,6 +76,8 @@ public class LoginDialog extends Dialog {
 		lblPassword.setText("Password");
 		
 		password = new Text(container, SWT.BORDER | SWT.PASSWORD);
+		password.setData("id_password");
+		
 		GridData gd_password = new GridData(SWT.LEFT, SWT.CENTER, true, false, 1, 1);
 		gd_password.widthHint = 172;
 		password.setLayoutData(gd_password);
@@ -93,6 +91,7 @@ public class LoginDialog extends Dialog {
 	@Override
 	protected void createButtonsForButtonBar(Composite parent) {
 		Button loginButton = createButton(parent, IDialogConstants.NO_ID, "Login", true);
+		loginButton.setData("id_login");
 		loginButton.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" name="org.boomslang.test.screens.Login">
-  <widgets xsi:type="model:Window" name="Login" id="7" x="760" y="216" width="321" height="177" text="Login" measuredWidth="321" measuredHeight="177"/>
-  <widgets xsi:type="model:TextField" name="Username" id="2" x="856" y="256" width="207" text="Username" measuredWidth="207" measuredHeight="25">
+  <widgets xsi:type="model:Window" name="Login" id="7" x="112" y="72" width="321" height="177" text="Login" measuredWidth="321" measuredHeight="177"/>
+  <widgets xsi:type="model:TextField" name="Username" id="2" x="208" y="112" width="207" text="Username" measuredWidth="207" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" name="Password" id="3" x="856" y="300" width="207" text="Password" measuredWidth="207" measuredHeight="25">
+  <widgets xsi:type="model:TextField" name="Password" id="3" x="208" y="156" width="207" text="Password" measuredWidth="207" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" name="Login" id="1" x="1011" y="344" text="Login" measuredWidth="52" measuredHeight="27">
+  <widgets xsi:type="model:Button" name="Login" id="1" x="363" y="200" text="Login" measuredWidth="52" measuredHeight="27">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="9" x="776" y="256" text="Username" measuredWidth="65" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="9" x="128" y="112" text="Username" measuredWidth="65" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="778" y="300" text="Password" measuredWidth="62" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="10" x="130" y="156" text="Password" measuredWidth="62" measuredHeight="25">
     <font/>
   </widgets>
   <hRuler/>
