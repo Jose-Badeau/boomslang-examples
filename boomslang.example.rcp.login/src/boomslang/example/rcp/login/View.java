@@ -19,10 +19,15 @@ public class View extends ViewPart {
 		parent.setLayout(new FormLayout());
 		loggedIn = new Button(parent, SWT.CHECK);
 		loggedIn.setText("Logged in");
+		loggedIn.setEnabled(false);
 		FormData fd_button = new FormData();
 		fd_button.bottom = new FormAttachment(100, -10);
 		fd_button.left = new FormAttachment(0, 10);
 		loggedIn.setLayoutData(fd_button);
+	}
+	
+	public static void setLoggedIn(boolean flag) {
+		if (loggedIn != null) loggedIn.setSelection(flag);
 	}
 
 	@Override

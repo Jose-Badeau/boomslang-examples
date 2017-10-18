@@ -28,7 +28,7 @@ public class ApplicationWorkbenchWindowAdvisor extends WorkbenchWindowAdvisor {
 		Shell shell = PlatformUI.getWorkbench().getDisplay().getActiveShell();
 		LoginDialog login = new LoginDialog(shell);
 		login.open();
-//		View.loggedIn.setSelection(LoginDialog.isLoggedin());
+		View.setLoggedIn(LoginDialog.isLoggedin());
 	}
 	
 	
